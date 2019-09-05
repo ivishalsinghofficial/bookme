@@ -1,0 +1,154 @@
+﻿body {
+    background-image:url(images/bg2.jpg) ;
+    background-size: cover;
+    overflow: auto;
+    overflow-x:hidden;
+    overflow-y:auto;
+}
+
+.tag{
+   
+    align-content: center;
+    margin: 20px auto;
+    animation: type 5s steps(22) 1s normal, erase 1s steps(22) infinite;
+    overflow:hidden;
+    white-space:nowrap;
+    font-family:Consolas;
+    width: 22ch;
+    font-size:50px;
+    color:white;
+    text-align:center;
+    border-right: 4px solid white;
+}
+@keyframes type{
+    0% {width:0ch;}
+    100% {width:22ch;}
+}
+@keyframes erase{
+   from{border-color: white;}
+   to {border-color: transparent;}
+}
+
+.placeholder{
+    margin-top: 100px;
+}
+
+.button {
+  background-color: #111111;
+  color: #f4f4f4;
+  border: none;
+  color: black;
+  height:70px;
+  width:350px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+    font-family: Verdana; 
+  display: block;
+  font-size: 25px;
+  margin-left: 37%;
+  cursor: pointer;
+  transition:ease-in 250ms;
+  box-shadow:inset;
+}
+.button:hover{
+
+color: black;
+background-color: #ff0266;
+}
+.labels{
+    padding-bottom: 15px;
+    margin-left:41%;
+    color: white;
+    text-align: center;
+    width: 30%;
+    font-family:Consolas;
+    font-size:25px;
+   
+}
+.labelsign{
+    padding-bottom: 15px;
+    margin-left:45%;
+    color: white;
+    text-align: center;
+    width: 30%;
+    font-family:Consolas;
+    font-size:25px;
+   
+}
+.tboxes{
+    border: none;
+    border-bottom: 5px solid white;
+    width:50%;
+    margin-left:25%;
+    margin-bottom:10px;
+    color:white;
+    background-color: transparent;
+    font-size:25px;
+    text-align:center;
+    outline: 1px;
+    height: 40px;
+    
+}
+.dropdown{
+    border: none;
+    border-bottom: 5px solid white;
+    width:50%;
+    margin-left:25%;
+    font-size:25px;
+    outline: 1px;
+    height: 40px;
+    
+}
+.sendotp {
+  background-color: #111111;
+  color: #f4f4f4;
+  border: none;
+  color: black;
+  height:70px;
+  width:200px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+    font-family: Verdana; 
+  display: inline-block;
+  font-size: 25px;
+  cursor: pointer;
+  transition:ease-in 250ms;
+  box-shadow:inset;
+  border-radius: 10%;
+}
+.sendotp:hover{
+color: black;
+background-color: #ff0266;
+}
+hr {
+    background-color: #ff0266;
+    display: block;
+    height: 1px;
+    border: 0;
+    border-style:dotted;
+    border-top:5px solid #fff;
+    margin: 1em 0;
+    padding: 0;
+}
+.title{
+    padding-bottom: 15px;
+    margin-left:35%;
+    color: white;
+    text-align: center;
+    width: 30%;
+    font-family:Consolas;
+    font-size:25px;
+   
+}
+.content{
+    
+    padding-bottom: 15px;
+   padding-left: 10px;
+   padding-right: 10px;
+    color: white;
+    font-family:Consolas;
+    font-size:15px;
+   
+}

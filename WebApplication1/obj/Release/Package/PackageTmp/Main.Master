@@ -1,0 +1,106 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="WebApplication1.Main" %>
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css" aria-orientation="vertical">
+        
+         
+        .butt {
+               background: rgba(66, 184, 221, 0);
+                height: 50px;
+                width: 172px;
+                align-items: center;
+                border: none;
+                margin: auto;
+                display: block;
+                font-family: initial;
+                font-size: x-large;
+                
+        }
+        
+        .tableview {
+            background: rgba(66, 184, 221, 0);
+                height: 50px;
+                width: 150px;
+                align-items: center;
+                border: none;
+                margin-left: 35%;
+                display: block;
+                font-family: initial;
+                font-size: x-large;
+                
+                
+            
+        }
+         .backbtn {
+            background: rgba(66, 184, 221, 0);
+                height: 50px;
+                width: 172px;
+                align-items: center;
+                border: none;
+                margin-left: 43%;
+                display: block;
+                font-family: initial;
+                font-size: x-large;
+                
+            
+        }
+        .tbox {
+            height: 30px;
+                width: 300px;
+             border: none;
+             border-bottom: 2px solid white;
+             background-color: #F7F9F9;
+             margin: auto;
+             display: block;
+             align-items: center;
+}
+        .lbl{
+            color:ivory;
+            padding: 10px;
+            margin-left: 40%;
+            align-items: center;
+            display: block;
+            font-size: large;
+        }
+        .err{
+            padding: 10px;
+            margin-left: 30%;
+            align-items: center;
+            display: block;
+            font-size: large;
+            color: crimson;
+        }
+        
+        .foot {
+                font-family: initial;
+                font-size: x-large;
+                
+        }
+    </style>
+    </head>
+<body background="images/bbj.png">
+    
+        <form id="form1" runat="server">
+    
+        <p>
+            <asp:ImageButton ID="ImageButton1" runat="server" Height="186px" ImageUrl="~/images/logo.png" PostBackUrl="~/homepage.aspx" Width="211px" BorderStyle="None" />
+            </p>
+        
+            <asp:ContentPlaceHolder  ID="ContentPlaceHolder1" runat="server">
+                <p aria-orientation="vertical">
+                </p>
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                <p>
+                </p>
+            </asp:ContentPlaceHolder>
+        
+        </form>
+            
+</body>
+</html>

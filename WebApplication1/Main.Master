@@ -1,0 +1,195 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="WebApplication1.Main" %>
+
+<!DOCTYPE html>
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <link href="styler.css" rel="stylesheet" type="text/css" />
+    <title>
+    Book Me!
+    </title>
+    <style type="text/css" aria-orientation="vertical">
+        
+         
+        .butt {
+               background: rgba(66, 184, 221, 0);
+                height: 50px;
+                width: 172px;
+                align-items: center;
+                border: none;
+                margin: auto;
+                display: block;
+                font-family: initial;
+                font-size: x-large;
+                
+        }
+        
+        .tableview {
+            
+                height: 50px;
+                width: 150px;
+                align-items: center;
+                border: none;
+                margin-left: 35%;
+                display: block;
+                font-family: initial;
+                font-size: x-large;
+                
+                
+            
+        }
+         .backbtn {
+            background: rgba(66, 184, 221, 0);
+                height: 50px;
+                width: 172px;
+                align-items: center;
+                border: none;
+                margin-left: 43%;
+                display: block;
+                font-family: initial;
+                font-size: x-large;
+                
+            
+        }
+        .tbox {
+            height: 30px;
+                width: 300px;
+             border: none;
+             border-bottom: 2px solid white;
+             background-color: #F7F9F9;
+             margin: auto;
+             display: block;
+             align-items: center;
+}
+        .lbl{
+            color:ivory;
+            padding: 10px;
+            margin-left: 40%;
+            align-items: center;
+            display: block;
+            font-size: large;
+        }
+        .err{
+            padding: 10px;
+            margin-left: 30%;
+            align-items: center;
+            display: block;
+            font-size: large;
+            color: crimson;
+        }
+        
+        .foot {
+                font-family: initial;
+                font-size: x-large;
+                
+        }
+
+        /* Gridview Css*/
+        .grdContent
+        {
+            width: 80%;
+            border: solid 2px black;
+            min-width: 80%;
+        }
+        .header
+        {
+            background-color: #646464;
+            font-family: Arial;
+            color: White;
+            border: none 0px transparent;
+            height: 35px;
+            text-align: center;
+            font-size: 24px;
+        }
+        .rows
+        {
+            background-color: #fff;
+            font-family: Arial;
+            font-size: 18px;
+            color: #000;
+            min-height: 25px;
+            text-align: center;
+            border: none 0px transparent;
+        }
+        .rows:hover
+        {
+            background-color: #ff8000;
+            font-family: Arial;
+            color: #fff;
+            text-align: center;
+        }
+        .selectedrow
+        {
+            background-color: #ff8000;
+            font-family: Arial;
+            color: #fff;
+            font-weight: bold;
+            text-align: center;
+        }
+        .mydatagrid a /** FOR THE PAGING ICONS  **/
+         {
+            background-color: Transparent;
+            padding: 5px 5px 5px 5px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .mygrdContent a:hover /** FOR THE PAGING ICONS  HOVER STYLES**/
+        {
+            background-color: #000;
+            color: #fff;
+        }
+        .mygrdContent span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/
+         {
+            background-color: #c9c9c9;
+            color: #000;
+            padding: 5px 5px 5px 5px;
+        }
+        .pager
+        {
+            background-color: #646464;
+            font-family: Arial;
+            color: White;
+            height: 30px;
+            text-align: left;
+        }
+        .mygrdContent td
+        {
+            padding: 5px;
+        }
+        .mygrdContent th
+        {
+            padding: 5px;
+        }
+    </style>
+    
+    </head>
+<body background="images/bg2.jpg">
+   
+    
+        <form id="form1" runat="server">
+    
+        <div>
+            <a href="signlog.aspx">
+            <h1 class="tag">Book Me! Keep Reading!</h1></a>
+        </div>
+            <div class="placeholder">
+        <asp:ContentPlaceHolder   ID="ContentPlaceHolder1" runat="server">
+                <p aria-orientation="vertical">
+            
+                </p>
+            </asp:ContentPlaceHolder>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                <p>
+                </p>
+            </asp:ContentPlaceHolder>
+                </div>
+        
+        </form>
+    <script src="scripts/jquery-3.0.0.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/bootstrap.js"></script>
+            
+</body>
+</html>

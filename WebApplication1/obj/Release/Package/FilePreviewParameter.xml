@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="site1" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Enom\\Documents\\Visual\ Studio\ 2015\\Projects\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Enom\\Documents\\Visual\ Studio\ 2015\\Projects\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DonationBoxConnectionString-Web.config Connection String" description="DonationBoxConnectionString Connection String used in web.config by the application to access the database." value="Data Source=.;Initial Catalog=DonationBox;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Enom\\Documents\\Visual\ Studio\ 2015\\Projects\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DonationBoxConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="BookDonateConnectionString-Web.config Connection String" description="BookDonateConnectionString Connection String used in web.config by the application to access the database." value="Data Source=.;Initial Catalog=DonationBox;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Enom\\Documents\\Visual\ Studio\ 2015\\Projects\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BookDonateConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="BookmeConnectionString-Web.config Connection String" description="BookmeConnectionString Connection String used in web.config by the application to access the database." value="Data Source=.;Initial Catalog=DonationBox;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Enom\\Documents\\Visual\ Studio\ 2015\\Projects\\WebApplication1\\WebApplication1\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='BookmeConnectionString']/@connectionString" />
+  </parameter>
+</parameters>
